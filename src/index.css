@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 400;
+}
+
+/* 
+  Note: Most styling is now handled by Material-UI theme.
+  This file contains only global resets and styles.
+*/

@@ -16,8 +16,8 @@ const colors = {
     contrastText: "#fff",
   },
   background: {
-    default: "#f5f5f5",
-    paper: "#fff",
+    default: "#ffffff",
+    paper: "#ffffff",
   },
   text: {
     primary: "#212121",
@@ -127,6 +127,13 @@ export const theme = createTheme({
         secondary: {
           fontWeight: 600,
           color: "#000000",
+        },
+      },
+    },
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          backgroundColor: "#ffffff",
         },
       },
     },

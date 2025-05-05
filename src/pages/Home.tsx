@@ -32,7 +32,12 @@ export const Home = () => {
             onClick={() => {
               navigate("/guide");
             }}
-            sx={{ backgroundColor: "secondary.main", borderRadius: 2, py: 2 }}
+            sx={{
+              backgroundColor: "secondary.main",
+              borderRadius: 2,
+              py: 2,
+              cursor: "pointer",
+            }}
           >
             <ListItemAvatar>
               <IconButton
@@ -47,13 +52,17 @@ export const Home = () => {
             <ListItemText primary="Local Guide" />
           </ListItem>
           <ListItem
-            sx={{ backgroundColor: "secondary.main", borderRadius: 2, py: 2 }}
+            onClick={() => {
+              navigate("/find");
+            }}
+            sx={{
+              backgroundColor: "secondary.main",
+              borderRadius: 2,
+              py: 2,
+              cursor: "pointer",
+            }}
           >
-            <ListItemAvatar
-              onClick={() => {
-                navigate("/find");
-              }}
-            >
+            <ListItemAvatar>
               <IconButton
                 children={<EmojiEmotionsIcon />}
                 sx={{
@@ -66,13 +75,17 @@ export const Home = () => {
             <ListItemText primary="Find a Buddy" />
           </ListItem>
           <ListItem
-            sx={{ backgroundColor: "secondary.main", borderRadius: 2, py: 2 }}
+            onClick={() => {
+              navigate("/events");
+            }}
+            sx={{
+              backgroundColor: "secondary.main",
+              borderRadius: 2,
+              py: 2,
+              cursor: "pointer",
+            }}
           >
-            <ListItemAvatar
-              onClick={() => {
-                navigate("/events");
-              }}
-            >
+            <ListItemAvatar>
               <IconButton
                 children={<DateRangeIcon />}
                 sx={{

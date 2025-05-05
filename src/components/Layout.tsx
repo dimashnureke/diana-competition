@@ -5,10 +5,11 @@ import { Box, Container } from "@mui/material";
 export const Layout = () => {
   return (
     <Box
-      style={{
+      sx={{
         display: "flex",
         flexDirection: "column",
         minHeight: "100vh",
+        backgroundColor: "white",
       }}
     >
       <Header />

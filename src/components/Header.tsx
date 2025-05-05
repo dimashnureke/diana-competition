@@ -11,7 +11,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 export const Header = () => {
   const location = useLocation();
   const navigate = useNavigate();
-  const isHomePage = location.pathname === "/";
+  const isHomePage = location.pathname === "/diana-competition";
 
   const handleBackClick = () => {
     navigate(-1);

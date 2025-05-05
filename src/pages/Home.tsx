@@ -20,7 +20,7 @@ export const Home = () => {
       display="flex"
       flexDirection="column"
       gap={2}
-      sx={{ minHeight: "calc(100vh - 80px)", justifyContent: "space-between" }}
+      sx={{ minHeight: "calc(100vh - 160px)", justifyContent: "space-between" }}
     >
       <Box display="flex" flexDirection="column" gap={2}>
         <Typography variant="h2">Welcome!</Typography>

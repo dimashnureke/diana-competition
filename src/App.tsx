@@ -14,12 +14,12 @@ export const App = () => {
       <CssBaseline />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/diana-competition/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="find" element={<FindBuddy />} />
-            <Route path="guide" element={<LocalGuide />} />
-            <Route path="events" element={<Events />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="/diana-competition/find" element={<FindBuddy />} />
+            <Route path="/diana-competition/guide" element={<LocalGuide />} />
+            <Route path="/diana-competition/events" element={<Events />} />
+            <Route path="/diana-competition/*" element={<NotFound />} />
           </Route>
         </Routes>
       </BrowserRouter>

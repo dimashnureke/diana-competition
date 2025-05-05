@@ -30,7 +30,7 @@ export const Home = () => {
         <List sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
           <ListItem
             onClick={() => {
-              navigate("/guide");
+              navigate("/diana-competition/guide");
             }}
             sx={{
               backgroundColor: "secondary.main",
@@ -53,7 +53,7 @@ export const Home = () => {
           </ListItem>
           <ListItem
             onClick={() => {
-              navigate("/find");
+              navigate("/diana-competition/find");
             }}
             sx={{
               backgroundColor: "secondary.main",
@@ -76,7 +76,7 @@ export const Home = () => {
           </ListItem>
           <ListItem
             onClick={() => {
-              navigate("/events");
+              navigate("/diana-competition/events");
             }}
             sx={{
               backgroundColor: "secondary.main",

@@ -51,7 +51,7 @@ export const Header = () => {
             </IconButton>
           )}
           <Typography
-            variant="h6"
+            variant="h2"
             color="primary"
             sx={{
               flexGrow: 0,
